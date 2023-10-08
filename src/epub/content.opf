@@ -80,7 +80,48 @@
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/dedication.xhtml" id="dedication.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/envoi.xhtml" id="envoi.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/halftitlepage.xhtml" id="halftitlepage.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/preface.xhtml" id="preface.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/proem.xhtml" id="proem.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-1.xhtml" id="scene-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-2.xhtml" id="scene-2.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-3.xhtml" id="scene-3.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-4.xhtml" id="scene-4.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-5.xhtml" id="scene-5.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-6.xhtml" id="scene-6.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-7.xhtml" id="scene-7.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-8.xhtml" id="scene-8.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-9.xhtml" id="scene-9.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-10.xhtml" id="scene-10.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-11.xhtml" id="scene-11.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-12.xhtml" id="scene-12.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-13.xhtml" id="scene-13.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-14.xhtml" id="scene-14.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-15.xhtml" id="scene-15.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-16.xhtml" id="scene-16.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-17.xhtml" id="scene-17.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-18.xhtml" id="scene-18.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-19.xhtml" id="scene-19.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-20.xhtml" id="scene-20.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-21.xhtml" id="scene-21.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-22.xhtml" id="scene-22.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-23.xhtml" id="scene-23.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-24.xhtml" id="scene-24.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-25.xhtml" id="scene-25.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-26.xhtml" id="scene-26.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-27.xhtml" id="scene-27.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-28.xhtml" id="scene-28.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-29.xhtml" id="scene-29.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-30.xhtml" id="scene-30.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-31.xhtml" id="scene-31.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-32.xhtml" id="scene-32.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-33.xhtml" id="scene-33.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-34.xhtml" id="scene-34.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-35.xhtml" id="scene-35.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-36.xhtml" id="scene-36.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
@@ -88,6 +129,47 @@
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="dedication.xhtml"/>
+		<itemref idref="preface.xhtml"/>
+		<itemref idref="halftitlepage.xhtml"/>
+		<itemref idref="proem.xhtml"/>
+		<itemref idref="scene-1.xhtml"/>
+		<itemref idref="scene-2.xhtml"/>
+		<itemref idref="scene-3.xhtml"/>
+		<itemref idref="scene-4.xhtml"/>
+		<itemref idref="scene-5.xhtml"/>
+		<itemref idref="scene-6.xhtml"/>
+		<itemref idref="scene-7.xhtml"/>
+		<itemref idref="scene-8.xhtml"/>
+		<itemref idref="scene-9.xhtml"/>
+		<itemref idref="scene-10.xhtml"/>
+		<itemref idref="scene-11.xhtml"/>
+		<itemref idref="scene-12.xhtml"/>
+		<itemref idref="scene-13.xhtml"/>
+		<itemref idref="scene-14.xhtml"/>
+		<itemref idref="scene-15.xhtml"/>
+		<itemref idref="scene-16.xhtml"/>
+		<itemref idref="scene-17.xhtml"/>
+		<itemref idref="scene-18.xhtml"/>
+		<itemref idref="scene-19.xhtml"/>
+		<itemref idref="scene-20.xhtml"/>
+		<itemref idref="scene-21.xhtml"/>
+		<itemref idref="scene-22.xhtml"/>
+		<itemref idref="scene-23.xhtml"/>
+		<itemref idref="scene-24.xhtml"/>
+		<itemref idref="scene-25.xhtml"/>
+		<itemref idref="scene-26.xhtml"/>
+		<itemref idref="scene-27.xhtml"/>
+		<itemref idref="scene-28.xhtml"/>
+		<itemref idref="scene-29.xhtml"/>
+		<itemref idref="scene-30.xhtml"/>
+		<itemref idref="scene-31.xhtml"/>
+		<itemref idref="scene-32.xhtml"/>
+		<itemref idref="scene-33.xhtml"/>
+		<itemref idref="scene-34.xhtml"/>
+		<itemref idref="scene-35.xhtml"/>
+		<itemref idref="scene-36.xhtml"/>
+		<itemref idref="envoi.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
