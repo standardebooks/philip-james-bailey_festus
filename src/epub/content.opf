@@ -28,48 +28,42 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Festus</dc:title>
 		<meta property="file-as" refines="#title">Festus</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
-		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
-		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Drama</meta>
+		<meta property="se:subject">Poetry</meta>
+		<meta property="se:subject">Spirituality</meta>
+		<dc:description id="description">A man is on a quest for knowledge, truth, and understanding in the face of the complexities of existence and spirituality.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;i&gt;Festus&lt;/i&gt; is a dramatic narrative poem written by &lt;a href="https://standardebooks.org/ebooks/philip-james-bailey"&gt;Philip James Bailey&lt;/a&gt;, first published in 1839. Instead of adhering to a traditional linear plot structure, the work presents a series of loosely connected episodes, dialogs, and encounters that collectively form the spiritual and philosophical journey of its central character, Festus. Festus embarks on a metaphysical journey through various realms and encounters a wide array of allegorical and mythological figures, representing different facets of human experience, morality, and the eternal struggle between good and evil. Through his interactions with these characters, Festus engages in discussions on topics such as love, death, faith, and the nature of reality.&lt;/p&gt;
+			&lt;p&gt;Lucifer is a constant presence on the protagonist’s journey. Lucifer’s interactions with Festus serve as a means of exploring the conflict between good and evil, as well as the challenges and choices that individuals face in their pursuit of enlightenment. Lucifer represents the adversarial force that seeks to divert Festus from his path, tempting him with worldly pleasures, doubts, and distractions.&lt;/p&gt;
 		</meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>PG_URL</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:language>en-GB</dc:language>
+		<dc:source>https://archive.org/details/festusapoem07bailgoog</dc:source>
+		<dc:source>https://catalog.hathitrust.org/Record/011636373</dc:source>
+		<meta property="se:production-notes">This edition is based on the 1845 First American Edition of Festus.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Festus</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/philip-james-bailey_festus</meta>
 		<dc:creator id="author">Philip James Bailey</dc:creator>
 		<meta property="file-as" refines="#author">Bailey, Philip James</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Philip_James_Bailey</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n82158329</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
+		<dc:contributor id="artist">Franz Stuck</dc:contributor>
+		<meta property="file-as" refines="#artist">Stuck, Franz</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Franz_Stuck</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n82050633</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
-		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Emma Sweeney</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Sweeney, Emma</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://www.linkedin.com/in/emma-sweeney-554927190/</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 	</metadata>
 	<manifest>
