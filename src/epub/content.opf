@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/philip-james-bailey/festus</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2023-10-20T16:33:41Z</dc:date>
+		<meta property="dcterms:modified">2023-10-20T16:33:41Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -31,17 +31,18 @@
 		<meta property="se:subject">Drama</meta>
 		<meta property="se:subject">Poetry</meta>
 		<meta property="se:subject">Spirituality</meta>
-		<dc:description id="description">A man is on a quest for knowledge, truth, and understanding in the face of the complexities of existence and spirituality.</dc:description>
+		<dc:description id="description">A man goes on a quest for knowledge, truth, and understanding in the face of the complexities of existence and spirituality.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;Festus&lt;/i&gt; is a dramatic narrative poem written by &lt;a href="https://standardebooks.org/ebooks/philip-james-bailey"&gt;Philip James Bailey&lt;/a&gt;, first published in 1839. Instead of adhering to a traditional linear plot structure, the work presents a series of loosely connected episodes, dialogs, and encounters that collectively form the spiritual and philosophical journey of its central character, Festus. Festus embarks on a metaphysical journey through various realms and encounters a wide array of allegorical and mythological figures, representing different facets of human experience, morality, and the eternal struggle between good and evil. Through his interactions with these characters, Festus engages in discussions on topics such as love, death, faith, and the nature of reality.&lt;/p&gt;
-			&lt;p&gt;Lucifer is a constant presence on the protagonist’s journey. Lucifer’s interactions with Festus serve as a means of exploring the conflict between good and evil, as well as the challenges and choices that individuals face in their pursuit of enlightenment. Lucifer represents the adversarial force that seeks to divert Festus from his path, tempting him with worldly pleasures, doubts, and distractions.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Festus&lt;/i&gt; is a dramatic narrative poem written by &lt;a href="https://standardebooks.org/ebooks/philip-james-bailey"&gt;Philip James Bailey&lt;/a&gt;, first published in 1839. Instead of adhering to a traditional linear plot structure, the work presents a series of loosely connected episodes, dialogues, and encounters that collectively form the spiritual and philosophical journey of its central character, Festus. Festus embarks on a metaphysical journey through various realms and encounters a wide array of allegorical and mythological figures, representing different facets of human experience, morality, and the eternal struggle between good and evil. Through his interactions with these characters, Festus engages in discussions on topics such as love, death, faith, and the nature of reality.&lt;/p&gt;
+			&lt;p&gt;Lucifer is a constant presence on the protagonist’s journey. His interactions with Festus serve as a means of exploring the conflict between good and evil, as well as the challenges and choices that individuals face in their pursuit of enlightenment; he represents the adversarial force that seeks to divert Festus from his path, tempting him with worldly pleasures, doubts, and distractions.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Festus&lt;/i&gt; was extremely popular in its day, and greatly admired by contemporary poets like &lt;a href="https://standardebooks.org/ebooks/alfred-lord-tennyson"&gt;Tennyson&lt;/a&gt; and &lt;a href="https://standardebooks.org/ebooks/elizabeth-barrett-browning"&gt;Elizabeth Barrett Browning&lt;/a&gt;. It went through various editions over the years as Bailey continued appending verbatim extracts from his later, less popular poems, until the final edition of 1889 ran over 40,000 lines. This Standard Ebooks edition is based on the 1845 first American edition, which is the last edition to contain material wholly original to &lt;i&gt;Festus&lt;/i&gt;.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://archive.org/details/festusapoem07bailgoog</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/011636373</dc:source>
-		<meta property="se:production-notes">This edition is based on the 1845 First American Edition of Festus.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:production-notes">This edition is based on the 1845 first American edition.</meta>
+		<meta property="se:word-count">104635</meta>
+		<meta property="se:reading-ease.flesch">79.8</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Festus</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/philip-james-bailey_festus</meta>
 		<dc:creator id="author">Philip James Bailey</dc:creator>
