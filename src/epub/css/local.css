@@ -130,3 +130,7 @@ p span.i2{
 	padding-left: 3em;
 	text-indent: -1em;
 }
+
+#dedication footer p{
+	text-align: right;
+}
