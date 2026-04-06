@@ -44,7 +44,6 @@
 		<meta property="se:production-notes">This edition is based on the 1845 first American edition.</meta>
 		<meta property="se:word-count">103540</meta>
 		<meta property="se:reading-ease.flesch">79.8</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Festus</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/philip-james-bailey_festus</meta>
 		<dc:creator id="author">Philip James Bailey</dc:creator>
 		<meta property="file-as" refines="#author">Bailey, Philip James</meta>
