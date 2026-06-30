@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/philip-james-bailey/festus</dc:identifier>
 		<dc:date>2023-10-20T16:33:41Z</dc:date>
 		<meta property="dcterms:modified">2023-10-20T16:33:41Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -29,9 +30,9 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">Festus</dc:title>
 		<meta property="file-as" refines="#title">Festus</meta>
-		<meta property="se:subject">Drama</meta>
-		<meta property="se:subject">Poetry</meta>
-		<meta property="se:subject">Spirituality</meta>
+		<meta property="schema:genre">Drama</meta>
+		<meta property="schema:genre">Poetry</meta>
+		<meta property="schema:genre">Spirituality</meta>
 		<dc:description id="description">A man goes on a quest for knowledge, truth, and understanding in the face of the complexities of existence and spirituality.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;Festus&lt;/i&gt; is a dramatic narrative poem written by &lt;a href="https://standardebooks.org/ebooks/philip-james-bailey"&gt;Philip James Bailey&lt;/a&gt;, first published in 1839. Instead of adhering to a traditional linear plot structure, the work presents a series of loosely connected episodes, dialogues, and encounters that collectively form the spiritual and philosophical journey of its central character, Festus. Festus embarks on a metaphysical journey through various realms and encounters a wide array of allegorical and mythological figures, representing different facets of human experience, morality, and the eternal struggle between good and evil. Through his interactions with these characters, Festus engages in discussions on topics such as love, death, faith, and the nature of reality.&lt;/p&gt;
@@ -41,25 +42,26 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://archive.org/details/festusapoem07bailgoog</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/011636373</dc:source>
-		<meta property="se:production-notes">This edition is based on the 1845 first American edition.</meta>
-		<meta property="se:word-count">103540</meta>
-		<meta property="se:reading-ease.flesch">79.8</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/philip-james-bailey_festus</meta>
+		<meta property="schema:wordCount">103540</meta>
+		<meta property="schema:educationalLevel">79.8</meta>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/philip-james-bailey_festus" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Philip James Bailey</dc:creator>
 		<meta property="file-as" refines="#author">Bailey, Philip James</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Philip_James_Bailey</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n82158329</meta>
+		<link href="https://en.wikipedia.org/wiki/Philip_James_Bailey" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n82158329.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">Franz Stuck</dc:contributor>
 		<meta property="file-as" refines="#artist">Stuck, Franz</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Franz_Stuck</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n82050633</meta>
+		<link href="https://en.wikipedia.org/wiki/Franz_Stuck" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n82050633.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="producer-1">Emma Sweeney</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Sweeney, Emma</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://www.linkedin.com/in/emma-sweeney-554927190/</meta>
+		<link href="https://www.linkedin.com/in/emma-sweeney-554927190/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
