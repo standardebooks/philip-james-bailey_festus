@@ -33,7 +33,7 @@
 		<meta property="schema:genre">Drama</meta>
 		<meta property="schema:genre">Poetry</meta>
 		<meta property="schema:genre">Spirituality</meta>
-		<dc:abstract>A man goes on a quest for knowledge, truth, and understanding in the face of the complexities of existence and spirituality.</dc:abstract>
+		<meta property="schema:abstract">A man goes on a quest for knowledge, truth, and understanding in the face of the complexities of existence and spirituality.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;i&gt;Festus&lt;/i&gt; is a dramatic narrative poem written by &lt;a href="https://standardebooks.org/ebooks/philip-james-bailey"&gt;Philip James Bailey&lt;/a&gt;, first published in 1839. Instead of adhering to a traditional linear plot structure, the work presents a series of loosely connected episodes, dialogues, and encounters that collectively form the spiritual and philosophical journey of its central character, Festus. Festus embarks on a metaphysical journey through various realms and encounters a wide array of allegorical and mythological figures, representing different facets of human experience, morality, and the eternal struggle between good and evil. Through his interactions with these characters, Festus engages in discussions on topics such as love, death, faith, and the nature of reality.&lt;/p&gt;
 			&lt;p&gt;Lucifer is a constant presence on the protagonist’s journey. His interactions with Festus serve as a means of exploring the conflict between good and evil, as well as the challenges and choices that individuals face in their pursuit of enlightenment; he represents the adversarial force that seeks to divert Festus from his path, tempting him with worldly pleasures, doubts, and distractions.&lt;/p&gt;
